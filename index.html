@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jeremy Nguyen - Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Jeremy Nguyen - Portfolio">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Scripts -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header-section").style.top = "0px";
+  } else {
+    document.getElementById("header-section").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body class="body-pad">
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- header section start -->
+	<header id="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<a href="https://jkvnguyen.github.io/" class="logo">
+					<h2 class="site-logo">JN</h2>
+				</a>
+				<div class="col home-2 text-left text-md-right">
+					<nav class="main-menu">
+						<ul>
+							<li><a href="about.html">about</a></li>
+							<li><a href="resume.pdf">resume</a></li>
+							<li><a href="mailto:jkvnguyen@hotmail.com">talk to me</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- <a href="" class="site-btn header-btn">Get in touch</a> -->
+			</div>
+		</div>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+	</header>
+	<!-- header section end -->
+
+
+	<!-- portfolio section start -->
+	<section class="portfolio-section pt100">
+		<div class="container">
+
+		</div>
+		<div class="container-fluid p-0">
+			<div class="row portfolios-area">
+				<div class="col-lg-10">
+					<div class="portfolio-intro">
+
+						<!-- <br> -->
+						<h1 class="section-title mb-5">
+							<!-- hi, i'm <span>jeremy</span>.<br> -->
+							hi i'm jeremy, <br><span>game designer
+
+							</span> <br>
+							<span>ux designer
+
+							</span>
+							<br><span>programmer
+
+							</span> <br> for all things video games and ar.  </h1>
+						<ul class="portfolio-filter controls">
+							<li class="control" data-filter="all">all</li>
+							<li class="control" data-filter=".professional">professional</li>
+							<!-- <li class="control" data-filter=".writing">Writing</li> -->
+							<li class="control" data-filter=".personal">personal</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-6 programming professional">
+					<a href="sky-of-tides.html" class="portfolio-item set-bg pi-style2" data-setbg="img/sky-of-tides/Cover.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2 class="item-title">Sky of Tides</h2>
+						<p><b>ui development</b> narrative sci-fi game</p>
+					</div>
+				</div>
+
+				<!-- <div class="mix col-md-6 col-lg-6 programming personal">
+					<a href="boba-blast.html" class="portfolio-item set-bg pi-style2" data-setbg="img/boba-blast/logo.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2 class="item-title">Boba Blast</h2>
+						<p><b>game+ux design</b> indie party game</p>
+					</div>
+				</div> -->
+
+
+
+				<div class="mix col-md-6 col-lg-6 design personal">
+					<a href="stormcraft.html" class="portfolio-item set-bg pi-style2" data-setbg="img/stormcraft/Cover.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2 class="item-title">Stormcraft</h2>
+						<p><b>ai programming</b> mobile moba game</p>
+					</div>
+				</div>
+
+				<!-- <div class="mix col-md-6 col-lg-6 design personal">
+					<a href="windrunner.html" class="portfolio-item set-bg pi-style2" data-setbg="img/portfolio/windrunner.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2 class="item-title">Windrunner</h2>
+						<p><b>ue5 game design</b> survival game</p>
+					</div>
+				</div> -->
+
+				<div class="mix col-md-6 col-lg-6 professional">
+					<a href="nextech-ar.html" class="portfolio-item set-bg pi-style2" data-setbg="img/portfolio/nextech.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2 class="item-title">NexTech AR Solutions</h2>
+						<p><b>ux design</b> augmented reality platforms</p>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-6 professional">
+					<a href="super-star-cadets.html" class="portfolio-item set-bg pi-style2" data-setbg="img/portfolio/mpc.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2 class="item-title">Mysterious Package Company</h2>
+						<p><b>product development</b> augmented reality escape room</p>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-6 professional">
+					<a href="gbc-virtual-campus.html" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/virtual-campus.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2>GBC Virtual Campus</h2>
+						<p><b>game + ux design </b> life simulation game</p>
+					</div>
+				</div>
+
+
+
+
+
+				<div class="mix col-md-6 col-lg-6 personal">
+					<a href="doctor-strange-portal.html" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/portal.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2>Doctor Strange Portal</h2>
+						<p><b>ux design + dev</b> augmented reality portal</p>
+					</div>
+				</div>
+
+				<div class="mix col-md-6 col-lg-6 personal">
+					<a href="lunar-lander.html" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/lunar.png">
+						<div class="pi-inner">
+							<h2>+ See Project</h2>
+						</div>
+					</a>
+					<div class="portfolio-meta">
+						<h2>Lunar Lander+</h2>
+						<p><b>ux research</b> case study on social comparison</p>
+					</div>
+				</div>
+
+
+												<!-- <div class="mix col-md-6 col-lg-6 design">
+													<a href="boba-blast.html" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/boba-blast.png">
+														<div class="pi-inner">
+															<h2>+ See Project</h2>
+														</div>
+													</a>
+													<div class="portfolio-meta">
+														<h2>Boba Blast</h2>
+														<p><b>game design+dev</b> personal project</p>
+													</div>
+												</div> -->
+
+
+
+								<div class="mix col-md-6 col-lg-6 personal">
+									<a href="north-bear.html" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/16.png">
+										<div class="pi-inner">
+											<h2>+ See Project</h2>
+										</div>
+									</a>
+									<div class="portfolio-meta">
+										<h2>North Bear</h2>
+										<p><b>game design</b> vr survival game</p>
+									</div>
+								</div>
+
+
+
+								<div class="mix col-md-6 col-lg-6 professional">
+									<a href="scanna-ar.html" class="portfolio-item pi-style2 set-bg" data-setbg="img/portfolio/scanna2.png">
+										<div class="pi-inner">
+											<h2>+ See Project</h2>
+										</div>
+									</a>
+									<div class="portfolio-meta">
+										<h2>Scanna</h2>
+										<p><b>ux design + dev </b> augmented reality budtender</p>
+									</div>
+								</div>
+
+
+
+
+
+			</div>
+		</div>
+	</section>
+	<!-- portfolio section end -->
+
+
+	<!-- footer section start -->
+	<footer class="footer-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<h2 class="footer-message">let's get in touch</h2>
+				</div>
+				<div class="col-md-4 text-md-right">
+					<div class="social-links">
+						<!-- <a href=""><span class="fa fa-pinterest"></span></a> -->
+						<!-- <p>get in touch <i class="fa fa-long-arrow-down" style="font-size:24px"></i> </p>  -->
+						<a href="https://www.linkedin.com/in/jkvnguyen/"><span class="fa fa-linkedin"></span></a>
+						<a href="mailto:jkvnguyen@hotmail.com"><span class="fa fa-envelope-o"></span></a>
+						<!-- <a href="mailto:jkvnguyen@hotmail.com" class="site-btn">get in touch</a> -->
+
+						<!-- <a href=""><span class="fa fa-twitter"></span></a> -->
+					</div>
+					<div class="copyright">
+<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> Jeremy Nguyen</a> -->
+</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
