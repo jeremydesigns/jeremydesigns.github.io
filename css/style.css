@@ -194,7 +194,7 @@ hr {
 --------------------------*/
 .body-pad {
   padding: 0 40px;
-  background-color: #f6f6f6;
+  background-color: #111111;
 }
 
 .body-pad .footer-section {
@@ -227,7 +227,7 @@ hr {
   font-size: 42px;
   width: 85%;
   padding-bottom: 50px;
-  color: #333333;
+  color: #ffffff;
   font-family: 'SFProDisplay';
 }
 
@@ -509,7 +509,7 @@ header {
 
 #header-section {
   padding-top: 10px;
-  background-color: #f6f6f6;
+  background-color: #111111;
   position: fixed;
   top: 0;
   width: 100%;
@@ -527,6 +527,7 @@ header {
   font-weight: bold;
     align-items: center;
     margin-left: -7.5px;
+    color: white;
 }
 
 .main-menu ul {
@@ -667,6 +668,7 @@ header {
 .portfolio-meta h2 {
   font-weight: bold;
   font-size: 16px;
+  color: #ffffff;
   font-family: 'Inter';
   border-bottom: 1.5px solid #000;
   border-bottom-style: solid;
@@ -677,7 +679,7 @@ header {
 .portfolio-meta p {
   margin-top: 3px;
   font-size: 14px;
-  color: black;
+  color: white;
   margin-bottom: 0;
 }
 
