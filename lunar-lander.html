@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jeremy Nguyen - Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Jeremy Nguyen - Portfolio">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Scripts -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header-section").style.top = "0px";
+  } else {
+    document.getElementById("header-section").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("main-menu");
+var btns = header.getElementsByClassName("a");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
+</script>
+
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body class="body-pad">
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- header section start -->
+	<header id="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<a href="https://jkvnguyen.github.io/" class="logo">
+					<h2 class="site-logo">JN</h2>
+				</a>
+				<div class="col home-2 text-left text-md-right">
+					<nav class="main-menu">
+						<ul>
+							<li><a href="about.html">about</a></li>
+							<li><a href="resume.pdf">resume</a></li>
+							<li><a href="mailto:jkvnguyen@hotmail.com">talk to me</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- <a href="" class="site-btn header-btn">Get in touch</a> -->
+			</div>
+		</div>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+	</header>
+	<!-- header section end -->
+
+	<!-- intro section start -->
+	<div style="padding-bottom: 130px;">
+	</div>
+	<!-- intro section end -->
+
+	<section class="page-section">
+		<div class="container-fluid p-0">
+			<div class="row">
+				<div class="col-lg-6">
+
+					<h3> Lunar Lander+</h3>
+
+
+
+					<br>
+
+					</div>
+
+					<!-- <div class="col-lg-5 offset-lg-0">
+
+						<br>
+						<br>
+						<br>
+					<img src="img/lunar-lander/1.png">
+
+					<br>
+
+					</div> -->
+
+					<div class="col-lg-11">
+
+						<br>
+						<div class="breakdown-row" style="height:100px;">
+							<div class="breakdown-column" style="width: 25% !important;">
+								<b> role </b>
+								<p>designer, developer
+								</p>
+							</div>
+							<div class="breakdown-column" style="width: 40% !important;">
+								<b> skills</b>
+								<p>user research, ui/ux, game design, figma, android, java</p>
+							</div>
+							<div class="breakdown-column">
+								<b> timeline </b>
+								<p>6 weeks</p>
+							</div>
+						</div>
+
+						<h4 > summary </h4>
+						<p> Conducted a user research on the influence of social comparison on task performance and developed an extension of the game Lunar Lander on the android phone.
+						</p>
+						<br>
+
+						<img src="img/lunar-lander/1.png">
+
+						<br>
+						<br>
+						<br>
+						<h4 > background </h4>
+
+						<p>
+						In most multiplayer games, the leaderboard can be used as an indicator to see the performances of players. A leaderboard can show score, the amount of kills ,etc. It can let one know that they are improving, getting worse, or just unlucky. The leaderboard can let you know if you are against good or bad players. And sometimes that can influence the way you play. In this case study, I wanted to research if players were affected by looking at their own or other player’s stats.
+						</p>
+
+						<br>
+						<h4> what i did </h4>
+
+							<ul>
+									<li> Conducted a series of surveys to gather and collect data on participants to determine external factors that may affect performance.</li>
+									<li>Extended an existing Android implementation of the game Lunar Lander to collect quantitive data.</li>
+									<li>Redesigned the game's basic game mechanics to accomodate for the comparative evaluation between two different interfaces.</li>
+									<li>Designed and updated game's interface and design to add a more aethestically pleasing experience and game flow to fit the experiment.</li>
+
+							</ul>
+							<br>
+							<br>
+
+							<h4> pre-experiment questionnaire</h4>
+							<p> A questionnaire was set up for the experiment to gather information that may affect performance. Factors such as time on computer, internet, and mobile were all considered and observed.</p>
+							<br>
+								<br>
+
+
+					</div>
+
+
+
+					<div class="col-lg-6">
+
+						<h4> start + setup </h4>
+						<p> To make the experience more game-like, I redesigned the interface into a game menu and improved the overall user flow. Rather than hand the game over to participants after inputting the values to be recorded, I wanted the user to feel like they are playing a game and not feel like they are partaking in an experiment as to not influence their results. I would add a game menu to the original app that the user can select ‘PLAY’ or ‘QUIT’ from, and the ‘SETUP’ would serve as an option meant for researchers.</p>
+
+						<p>
+							To add from the original app, I would also try making the game from a locked portrait view to a locked landscape. This is give the game more landing spaces and allow the user to have more interesting gameplay.
+						</p>
+					</div>
+
+					<div class="col-lg-5 offset-lg-1">
+
+					<img src="img/lunar-lander/2.png">
+
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+
+
+				<div class="col-lg-6">
+						<img src="img/lunar-lander/3.png">
+						<br>
+						<br>
+						<br>
+
+				</div>
+
+				<div class="col-lg-5 offset-lg-1">
+					<br>
+				<p> <b>PLAY</b> loads the player into the game with all the participant data via ‘SETUP’. </p>
+				<p> <b>SETUP</b> loads the setup page and allows inputs to be adjusted by the researcher based on the trial. Once all settings for setup are saved, exiting will return back to the start menu. </p>
+				<p> <b>QUIT</b> simply exits the app.</p>
+
+			</div>
+
+			<div class="col-lg-6">
+					<img src="img/lunar-lander/4.png">
+			</div>
+
+			<div class="col-lg-5 offset-lg-1">
+
+			<p> <b>PARTICIPANT CODE</b> is the participant number.</p>
+			<p> <b>SESSION CODE</b> is the number for the session. </p>
+			<p> <b>GROUP CODE</b> refers to the two study groups: leaderboard vs. non.</p>
+			<p> <b>LIVES</b> is the number of attempts each user gets if they fail a landing. The default is 3 and is what is being used for the experiment. The max is 10, min is 1.</p>
+			<p> <b>LEADERBOARD</b> can set to on or off.</p>
+		</div>
+
+		<div class="col-lg-12">
+			<br>
+			<br>
+			<br>
+			<h4 > game rules + controls </h4>
+			<br>
+			<img src="img/lunar-lander/5.png">
+			<br>
+			<br>
+
+
+		</div>
+
+
+		<div class="col-lg-11">
+			<br>
+			<p>
+				Pressing ‘PLAY’ loads the participants into the game where they can begin scoring points. Successful landing on marked areas with _X will score the player points based on the landing location. Successfully landing a lunar lander is determined by which angle the lander falls. If the angle is perfectly orthogonal, the player will score perfect points. Angles that are between 45-90 degrees of the lander will count as a successful land and count as scoring points. Angles least close to 90 degrees will have deducted score. Successful landings will result in the start of a new level and increased difficulty. Angles less than 45 degrees will count as unsuccessful landings. Unsuccessful landings decrement lives by 1. Scores are also influenced by the amount of time and remaining fuel.
+
+			</p>
+		</div>
+
+		<div class="col-lg-11">
+			<br>
+			<img src="img/lunar-lander/6.png">
+			<br>
+			<br>
+
+			<p> Overall calculations for scores are as follows:</p>
+
+			<p> <b>Score = (2 * lander angle) + 250 <br>Score = 5 * (100 / completion time in seconds) <br>
+Score = 5 * (remaining fuel)</b>
+			</p>
+
+			<p> Numerical values for fuel ranges from 0 to 100, with fuel starting off at 100. Time is calculated in seconds. Speed is calculated using the built-in source code’s vector physics. Increased level difficulties are calculated below with these values in mind.</p>
+
+			<br>
+			<img src="img/lunar-lander/7.png">
+			<br>
+			<br>
+
+			<br>
+			<h4> leaderboard </h4>
+			<br>
+			<img src="img/lunar-lander/8.png">
+			<br>
+			<br>
+
+			<p>
+				Selecting the menu option on the top left will pop up the options for RESUME, LEADERBOARD, or QUIT. Depending on the setup some players will not see the option for LEADERBOARD.
+
+			</p>
+			<br>
+			<img src="img/lunar-lander/9.png">
+			<br>
+			<br>
+
+			<p>
+				For players with the LEADERBOARD option ON, participants will see the top 5 scores between other participants or a set score (if the participants performing the experiment are the first 5).
+			</p>
+
+			<p>
+				QUIT will simply just exit the game back to the game menu. If the player quits the game before the number of lives run out, data will not be recorded.
+			</p>
+
+			<br>
+			<h4> game over + data collection</h4>
+
+			<p>The game is over when the participant’s lives reaches zero. Quitting early does not result in a data save and information is only saved when the number of remaining lives reaches 0. Data is saved via an app called Astro (via .txt files) and values are sent as Average level before dying, average time per level, average fuel per level, highest level reached, and highest score reached. </p>
+			<br>
+			<br>
+			<img src="img/lunar-lander/10.png">
+			<br>
+			<br>
+			<br>
+			<br>
+			<h4> conclusion</h4>
+
+			<p>In this user study, social comparison had improvement on scores and completion times for participants with a leaderboard. However, little improvement was observed from leaderboard revelation and without. Participants showed interest in learning the game suggesting that the game was hard, or the participants gathered were not frequent gamers.
+			</p>
+
+			<br>
+			<h4> future work</h4>
+			<p> Future work includes modifying the pre-experiment interview to gather information on participants' gaming history as frequent gamers show more competitiveness than inexperienced players.</p>
+			<br>
+		</div>
+
+
+
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+	<!-- page section end -->
+
+
+
+	<!-- footer section start -->
+	<footer class="footer-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<h2 class="footer-message">let's get in touch</h2>
+				</div>
+				<div class="col-md-4 text-md-right">
+					<div class="social-links">
+						<!-- <a href=""><span class="fa fa-pinterest"></span></a> -->
+						<!-- <p>get in touch <i class="fa fa-long-arrow-down" style="font-size:24px"></i> </p>  -->
+						<a href="https://www.linkedin.com/in/jkvnguyen/"><span class="fa fa-linkedin"></span></a>
+						<a href="mailto:jkvnguyen@hotmail.com"><span class="fa fa-envelope-o"></span></a>
+						<!-- <a href="mailto:jkvnguyen@hotmail.com" class="site-btn">get in touch</a> -->
+
+						<!-- <a href=""><span class="fa fa-twitter"></span></a> -->
+					</div>
+					<div class="copyright">
+<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> Jeremy Nguyen</a> -->
+</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

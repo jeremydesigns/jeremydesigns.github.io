@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jeremy Nguyen - Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Jeremy Nguyen - Portfolio">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Scripts -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header-section").style.top = "0px";
+  } else {
+    document.getElementById("header-section").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("main-menu");
+var btns = header.getElementsByClassName("a");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
+</script>
+
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body class="body-pad">
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- header section start -->
+	<header id="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<a href="https://jkvnguyen.github.io/" class="logo">
+					<h2 class="site-logo">JN</h2>
+				</a>
+				<div class="col home-2 text-left text-md-right">
+					<nav class="main-menu">
+						<ul>
+							<li><a href="about.html">about</a></li>
+							<li><a href="resume.pdf">resume</a></li>
+							<li><a href="mailto:jkvnguyen@hotmail.com">talk to me</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- <a href="" class="site-btn header-btn">Get in touch</a> -->
+			</div>
+		</div>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+	</header>
+	<!-- header section end -->
+
+	<!-- intro section start -->
+	<div style="padding-bottom: 130px;">
+	</div>
+	<!-- intro section end -->
+
+
+<section class="page-section">
+	<div class="container-fluid">
+
+		<div style="margin: auto; text-align: center;" class="col-lg-12">
+
+
+
+			<iframe width="100%" height="480" src="https://www.youtube.com/embed/KK5qYZHO3TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div style="padding-bottom: 5%;">
+			</div>
+
+			<h3> Doctor Strange AR Portal </h3>
+
+			<br>
+			<br>
+
+
+
+					<p><b> Role: </b> UX designer	/ Unity AR Developer </p>
+
+					<p> <b> Skills: </b> Unity, Figma</p>
+
+					<p> <b> Platform: </b> PC / iOS </p>
+
+					<br><br>
+
+
+					<div class="breakdown-row">
+						<div class="breakdown-column" style="width: 50% !important; text-align: left;">
+							<h4> Overview </h4>
+							<p> A markerless Augmented Reality portal inspired by Marvel's Doctor Strange's portals.
+								For this AR Exercise, I wanted to challenge myself and learn ARKit. Because of my past
+								experience using/implementing AR markers via Vuforia, I decided to develop the XR Portal.
+
+							</p>
+						</div>
+						<div class="breakdown-column" style="width: 50% !important; text-align: left;">
+							<h4> What I Did: </h4>
+							<ul>
+								<li> Designed the interface and user experience for a markerless AR portal. </li>
+								<li> Utilized ARKit via Unity to implement an iOS app. </li>
+								<li> Brainstormed and documented development processes. </li>
+							</ul>
+							<br>
+							<br>
+						</div>
+
+
+
+					</div>
+
+
+
+
+				</div>
+
+
+
+				<div class="col-lg-12">
+
+					<h4> Brainstorm </h4>
+					<p>
+					To understand the possibilities, I looked at all possibilities for solutions including both markerless AR and AR marker. For this process I wrote/sketch ideas that could be applied using AR and in turn applying those to mediums - Unity, Vuforia, ARKit/ARCore - to determine whether markerless AR or AR markers best suits the theme/design goals. Here are the list of ideas I came up with:</p>
+
+
+					<ul>
+						<li> Book promotion: Game of Thrones (AR Packaging)</li>
+						<li> Music AR Guide Manual (AR Instruction Manual / AR Packaging)</li>
+						<li> Book promotion: Game of Thrones (AR Packaging)</li>
+
+					</ul>
+
+					<br>
+					<h4> Research </h4>
+					<p>Following the brainstorm process, I did research on each of the following ideas and looked at the potential solutions to solving them. I looked at online guides and tutorials to discover some of the things that are relevant to these ideas, and which guides are best suited to be extended into an appropriate app that meets the required design goals.
+
+					Resources for these include: </p>
+
+					<div>
+						<div style="width: 50%; float: left;">
+							<ul>
+								<li> <a href="https://www.youtube.com/watch?v=Z5AmqMuNi08"> AR Portal</a>
+								</li>
+								<li> <a href="https://www.youtube.com/watch?v=1cwm6sCcV_o"> AR Portal tutorial series</a></li>
+								<li> <a href="https://www.youtube.com/watch?v=vqtEHOYX2vw"> AR Plane Detection</a> </li>
+							</ul>
+						</div>
+						<div style="width: 50%; float: left;">
+							<ul>
+								<li> <a href="https://www.youtube.com/watch?v=khavGQ7Dy3c&t"> Vuforia AR Marker #1</a>
+								</li>
+								<li> <a href="https://www.youtube.com/watch?v=MtiUx_szKbI&t"> Vuforia AR Marker #2</a></li>
+								<li> <a href="https://www.youtube.com/watch?v=mjNAPCFaZ9Y"> Vuforia AR Marker #3</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<br>
+					<br>
+					<br>
+					<br>
+					<p> Apps I looked at: AR Runner, Night Sky, Ikea Place, AR Fitness, World Brush </p>
+					<br>
+
+					<h4 > Research Development </h4>
+					<p>The completion of these early prototypes helped me identify some of the design goals while developing my portal. It allowed me to better understand which features were capable of implementing and which features can be excluded. With constraints such as time to consider I had to adjust the way in which I want to implement my apps and as such these adjustments included: </p>
+					<ul >
+						<li> <i>Excluding the use of gesture recognition</i>. Implementing gesture recognition from scratch is difficult and very time consuming. Could use another person’s gesture recognition code, however, this is not easily acquired. </li>
+
+						<li> <i>Initial plane detection logic</i>: if there is nothing to detect OR the detect is far away at a distance -> for vertical planes
+								<ul  style="list-style: circle; position:relative;left: 5%">
+									<li> After implementing/testing this feature, plane detection is not as reliable from far away distances and require decent lighting to detect</li>
+									<li>	Changes: Detect only horizontal planes, and at the feet. This avoids players creating portal at only a wall and creates a portal only if there is space in front of them. </li>
+								</ul>
+						</li>
+
+						<li> <i>Portal Flicker problem</i> -> the logic for entering a portal will flicker </li>
+						<li> <i>Implement a UI that changes Text as an instructional help</i> as opposed to having a pop-up that explains instructions -> Oversaturated with instructions </li>
+						<li> <i>Change basic UI buttons to implement different location spawns via the portal</i>. Also add exit/clear button.</li>
+						<li> <i>Improved/Add features to 3D environment</i>. Make one location a 3D World and another a 360 Video (as locations). Learn 360 Video implementation.</li>
+						<li> <i>Users cannot create multiple different portals</i>. The AR Hit Test makes it awkward such that the portal have a tendency to spawn on top of each other (assuming I want to keep consistent when spawning initially)</li>
+					</ul>
+
+					<br>
+					<h4> Prototype goals</h4>
+					<p> Following the brainstorming process and research, the first steps included building a prototype for an XR Portal. Without prior knowledge of making AR Portals in ARKit, I used several of the resources mentioned above to help develop my own XR Portal. The process to building the app started small and included:</p>
+					<ul>
+						<li> Building a portal that can be entered through and explored.</li>
+						<li> Have the app detect planes. </li>
+						<li> Make a simple UI to do simple tasks (print statement)</li>
+						<li> Create a simple 3D World to explore.</li>
+						<li> Develop a simple gesture/touch detection.</li>
+					</ul>
+					<br>
+					<p>A brief mockup of the app was made to identify the user flow and user experience. Downloading different kinds of AR apps I compared several of interfaces each of these apps used to get a better understanding of AR design. I would then use this information and ultimately apply it to my own user experience design. </p>
+
+					<br>
+					<h4> Lo-fi mockup + Onboarding</h4>
+					<br>
+					<img src="img/ar-portal/2.png">
+					<br>
+					<br>
+					<br>
+					<h4> using another portal</h4>
+					<br>
+					<img src="img/ar-portal/3.png">
+
+					<br>
+					<br>
+					<h4 > Challenges </h4>
+					<ul>
+						<li> Refreshing my skills in 3D computer graphics. Tutorials I watched used mostly shaders, and shaders are an integral part in 3D graphics. 3D computer graphics is not easy and I did not want to simply copy paste the tutorials but actually understand and learn how things worked. Some of the things I did to better understand the code was watching extra tutorial videos and looking at APIs of shaders in Unity. This helped me better understanding the uses of shaders and how they can be applied in AR. </li>
+						<li> Incorporating all components of each tutorials and trying to combine them. Although individually each component worked on their own, combining them together often did not work as intended and this required time to solve. One of the ways in which I overcame this problem was by making small iterations of one component and gradually adding other components onto it. If somehow by adding one component creates an error to the entire project, I can always refer to past iterations (that worked) such that I can try and understand the problem and solve. </li>
+						<li> Resolving the flicker issue when a person would enter the portal.</li>
+						<li> Finding 3D assets to fit a particular theme. </li>
+						<li> Balancing the design and development. Being in both roles as the designer and developer, it was difficult to balance between the designing an excellent user flow while testing for errors/bugs. </li>
+					</ul>
+
+
+
+
+
+					<br>
+					<h4 > Future Work </h4>
+
+					<p> In terms of future work and things I would like to do in the future … </p>
+
+					<ul>
+						<li> Implementing features for gesture recognition. Rather than create the portal with a simple tap button/screen, the portal should feel earned and have a more positive user experience when mimicking the characters in the movie (Doctor Strange). In terms of execution, I would refer to an Android build as I have used and seen the source code for gesture recognition in the past and apply its build to Unity. This includes: (1) Detect input points for gesture; (2) Normalize the points to fit in a unit bounding box; (3) Look for straight line strokes; (4) Compute stroke features; (5) Use stroke features to look for a match from a dictionary of characters.  </li>
+						<li> Adding interaction where the user can click on the models and an event occurs. This can easily be implemented the same way as the portal through Triggers or Collision where colliding with it will cause an action to occur. </li>
+						<li> Adding extra UI components: slider button with a scroll through the different locations, UI for help/extras/credits/settings. For the slider, I would implement this by having a list of locations and hide/reveal the current three on the slider -> I would have to use some kind of collection function algorithm. For the extras button I would simply just make a UI Panel with a button in Unity and have it translucent over the game screen to reveal extra information if the user needs (attached with a script to pop up and press next).</li>
+						<li> Improving upon the UI/UX: more effective user flow and more aesthetically pleasing UIs.</li>
+						<li> Smoother portal transitions. No flickers, disable the plane detection when inside a world, crisp UI transitions.</li>
+						<li> Develop interesting worlds that are ideally fictional as the point of AR is to play around in a Virtual environment. For this I would need 3D Artists to help make models. </li>
+					</ul>
+
+
+				</div>
+
+
+
+
+
+
+
+
+									<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+</section>
+
+
+<!-- footer section start -->
+<footer class="footer-section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8">
+				<h2 class="footer-message">let's get in touch</h2>
+			</div>
+			<div class="col-md-4 text-md-right">
+				<div class="social-links">
+					<!-- <a href=""><span class="fa fa-pinterest"></span></a> -->
+					<!-- <p>get in touch <i class="fa fa-long-arrow-down" style="font-size:24px"></i> </p>  -->
+					<a href="https://www.linkedin.com/in/jkvnguyen/"><span class="fa fa-linkedin"></span></a>
+					<a href="mailto:jkvnguyen@hotmail.com"><span class="fa fa-envelope-o"></span></a>
+					<!-- <a href="mailto:jkvnguyen@hotmail.com" class="site-btn">get in touch</a> -->
+
+					<!-- <a href=""><span class="fa fa-twitter"></span></a> -->
+				</div>
+				<div class="copyright">
+<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> Jeremy Nguyen</a> -->
+</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer section end -->
+
+
+
+<!--====== Javascripts & Jquery ======-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
