@@ -94,84 +94,78 @@ for (var i = 0; i < btns.length; i++) {
 	<!-- intro section end -->
 
 	<section class="page-section">
-		<div class="container-fluid p-0">
-			<div class="row">
-				<div class="col-lg-6">
+		<div class="container-fluid">
 
-					<h3> Scanna</h3>
-					<br>
-					<br>
+				<div style="margin: auto; text-align: center;" class="col-lg-12">
 
-					<div class="breakdown-row">
-						<div class="breakdown-column" style="width: 25% !important;">
-							<b> role </b>
-							<p>designer, developer
-							</p>
-						</div>
-						<div class="breakdown-column" style="width: 40% !important;">
-							<b> skills</b>
-							<p>ui/ux, unity, C#, adode premiere</p>
-						</div>
-						<div class="breakdown-column">
-							<b> timeline </b>
-							<p>2 months</p>
-						</div>
-					</div>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-
-					<h4> summary </h4>
-					<p> Designed and developed an Augmented Reality app that simulates a real life budtender to provide users with the ability to find information and details about cannabis products.
-					</p>
-					<br>
-
-
-
+					<iframe width="100%" height="480" src="https://www.youtube.com/embed/W6nZQoxxT94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div style="padding-bottom: 5%;">
 					</div>
 
-					<div class="col-lg-5 offset-lg-1">
+					<h3> Scanna </h3>
+
+					<br>
+					<br>
 
 
-					<img src="img/scanna/2.png">
 
+							<p><b> Role: </b> UX designer	/ Unity AR Developer </p>
+
+							<p> <b> Skills: </b> Unity, Figma, ARFoundation </p>
+
+							<p> <b> Platform: </b> PC / iOS </p>
+
+							<br><br>
+
+
+							<div class="breakdown-row">
+								<div class="breakdown-column" style="width: 50% !important; text-align: left;">
+									<h4> Overview </h4>
+									<p> At Patio Interactive Inc., we recorded several audio recordings on cannabis products that we wanted to use as part of a catalogue that can be scanned.
+										Initially we had wanted the experience to work as an e-commerce product combined with an AR experience but as part of R&D,
+										we developed both products separately anyways. A markerless AR app was developed and designed that simulated a real life budtender to provide users with the ability to find information and details about cannabis products. </li>
+
+									</p>
+								</div>
+								<div class="breakdown-column" style="width: 50% !important; text-align: left;">
+									<h4> What I Did: </h4>
+									<ul>
+											<li> Added the features for the AR budtender: navigation for product information and video clips explaining features of the product </li>
+											<li>Added a 3D environment for individual Cannabis products explaining product information in an intuitive and easy way.</li>
+											<li>Added scanning features where scanning specific products enables a markerless AR experience.</li>
+											<li>Learned and shot video demos of Scanna and cut together clips and audio to make a pitch video that was used during pitches by sales.</li>
+
+									</ul>
+									<br>
+									<br>
+								</div>
+
+
+
+							</div>
 
 					</div>
+
 
 					<div class="col-lg-11">
-						<h4> background </h4>
-						<p>At Patio Interactive Inc., we recorded several audio recordings on cannabis products that we wanted to use as part of a catalogue that can be scanned. </p>
-						<p>Initially we had wanted the experience to work as an e-commerce product combined with an AR experience but as part of R&D, we developed both products separately anyways.</p>
-							<br>
-							<h4> what i did </h4>
-							<ul>
-									<li> Designed and implemented the user experience for markerless horizontal plane detection AR that activates an assistance bot explaining cannabis products.</li>
-									<li>Added a 3D environment for individual Cannabis products explaining product information in an intuitive and easy way.</li>
-									<li>Added scanning features where scanning specific products enables a markerless AR experience that activates a hologram budtender that educates users on that particular cannabis product and about cannabis in general.</li>
-									<li>Learned and shot video demos of Scanna and cut together clips and audio to make a pitch video that was used during pitches by sales.</li>
 
-							</ul>
+
 
 							<br>
-							<h4> research and development</h4>
+							<h4> Research and Development</h4>
 							<p>To start the development of this project, first I would look into the possible technologies available that would that let me decide how I want to design it. With a good understanding of what I can do, I can best optimize the experience via the design. </p>
 							<p>As such, the two technologies that I looked into were ARFoundation, Unity’s built-in AR solution, and Vuforia, an external framework known for its AR capabilities. While both solutions work great, I decided to go with ARFoundation because upon building some early prototypes, both solutions have excellent image tracking (which would allow me to scan products) and plane detection, but ARFoundation does not feature a watermark which makes the experience more pleasant to view.</p>
 							<p> Part of the research for this project also included the incorporation of Unity and Android. Although no progress was made with cataloging the existing database of cannabis product to Unity, a scaled down version in Unity was instead explored. </p>
 							<br>
 
-							<h4> design + lo-fi mockup</h4>
+							<h4> Design + Lo-fi Mockup</h4>
 							<p> With technology settled, I would turn my attention to the design. While not many similar apps exist, I would take a look at many e-commerce platforms and minimalistic AR experiences and apply some of their features to Scanna.</p>
 							<br>
 							<img src="img/scanna/1.png">
 							<br>
 							<br>
 
-							<p>
-								The app is simple in its design with few button and simple instructions. The beginning of the app prompts the user to scan a cannabis product’s QR code which will trigger an event. The help button provides further details as to the other clickable buttons: reset scan and explore. Reset scan allows the user to reset back to the camera view for scanning another product. Explore (a future feature) will allow users to browse a large selection of cannabis products that can be scanned and viewed.
-							</p>
-							<br>
+
 
 
 							<img src="img/scanna/3.png">
@@ -210,17 +204,7 @@ for (var i = 0; i < btns.length; i++) {
 							<p> Details included when spawning the hologram budtender includes recorded audio of the different moods, flavours, and best uses for the specific product. Information via the product page are also viewable within the budtender view.</p>
 							<p>If users want to look at another product, they can select the reset scan option which will return back to the scan QR phase and allow the user to scan a new product. For users interested in learning more about purchasing, the user can select one of the interactable 3D buttons beside the budtender that will redirect them to a provider.</p>
 
-							<br>
-							<h4> demo video + final prototype</h4>
-							<br>
-							<iframe width="853" height="480" src="https://www.youtube.com/embed/W6nZQoxxT94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							<br>
-							<br>
-
-							<p> The final version of the prototype has minor changes to the lo-fi mockup. A pronounced budtender button on the product page and additional details to improve the AR setup experience were added when finding a horizontal plane and overall more feedback.</p>
-							<p> Users can now filter between audio clips as opposed to listening to one large file. Smaller audio clips are easier to listen to and pinpoint specific facts is easier to look for as well.</p>
-							<p> Another feature added to the final prototype included a popup displaying a brief description of the product and available providers. Instead of the user clicking one of the 3D interactive buttons and going to a webpage of the product biasly going to one of the providers, the user can select their preferred provider along with a short description. Information such as lineage was also added along with a recommended product as well.</p>
-							<p> Other features such as a like/favourites button and reviews were included but not implemented.</p>
+						
 
 
 
